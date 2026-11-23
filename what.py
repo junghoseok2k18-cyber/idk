@@ -241,7 +241,7 @@ MENU = [
 def main():
     db = Store()
     while True:
-        print("\n=== Hospital Management System ===")
+        print("\n=== Clinic Management System ===")
         for i, (label, _) in enumerate(MENU, 1):
             print(f" {i:>2}. {label}")
         print("  0. Exit")
